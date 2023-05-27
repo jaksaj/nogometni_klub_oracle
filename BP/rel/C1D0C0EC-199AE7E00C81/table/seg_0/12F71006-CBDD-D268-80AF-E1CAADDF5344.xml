@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="12F71006-CBDD-D268-80AF-E1CAADDF5344" name="STADIONI">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 16:24:57 UTC</createdTime>
+<generatorID>F5F2C3F4-B33F-6D72-6207-A06674F09E64</generatorID>
+<ownerDesignName>BP</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Stadion" id="788C9B4B-36DD-1A18-B591-825E8FA5F3E2">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 16:24:57 UTC</createdTime>
+<generatorID>DA79E509-DD35-3569-DEEF-B42EB16A0A7C</generatorID>
+<ownerDesignName>BP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementMinValue>1</autoIncrementMinValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>SEQ_STADION</autoIncrementSequenceName>
+<autoIncrementTriggerName>TRG_STADION</autoIncrementTriggerName>
+</Column>
+<Column name="Naziv" id="E0C8D2EE-708E-7C74-49D1-3DE69CA2458C">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 16:24:57 UTC</createdTime>
+<generatorID>F4DFA012-B9E0-B75D-D537-FAF64B39C24E</generatorID>
+<ownerDesignName>BP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Adresa" id="32CD37A3-2295-195F-6468-86BC84BC8D3E">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 16:24:57 UTC</createdTime>
+<generatorID>B3B8FE23-1679-F058-64F5-51CC4EB99D01</generatorID>
+<ownerDesignName>BP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MJESTA_ID_Mjesto" id="A5B23A21-0C67-1ACD-7EDC-6FF7064EED4D">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 16:24:57 UTC</createdTime>
+<generatorID>87C45E9A-7A55-27C6-E920-34E3FE8085C5</generatorID>
+<ownerDesignName>BP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C8F137BF-77B0-B142-A8E5-9FE3E10A4664" referredColumn="3FD060E7-8E39-1DB7-BB3D-65B1C26CD2EB"/>
+</associations>
+</Column>
+<Column name="Kapacitet" id="2FE806CA-E4BD-8C3D-88C0-B6919A331D48">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-18 17:38:01 UTC</createdTime>
+<generatorID>E37AB10F-86BF-274F-955A-2D600121514B</generatorID>
+<ownerDesignName>BP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="648E6001-268D-18E4-AFED-BB91022C60A3" name="STADIONI_PK">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 16:24:57 UTC</createdTime>
+<generatorID>223F0A60-6809-66F0-9F5B-1268D0052769</generatorID>
+<ownerDesignName>BP</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="788C9B4B-36DD-1A18-B591-825E8FA5F3E2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B6C14A66-40B6-9168-CA51-51D2E98F9A5E" name="STADIONI_MJESTA_FK">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 16:24:57 UTC</createdTime>
+<generatorID>7FF5E436-7AB0-9D98-6269-5979C8262BD8</generatorID>
+<ownerDesignName>BP</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A5B23A21-0C67-1ACD-7EDC-6FF7064EED4D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

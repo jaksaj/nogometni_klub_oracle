@@ -1,0 +1,54 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="606B368F-1D78-354C-2BDA-91E3BFEE00A5" name="ODJELI">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 16:24:57 UTC</createdTime>
+<generatorID>FE4495BC-BF96-5F97-824A-D0BB6F51A7D4</generatorID>
+<ownerDesignName>BP</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Odjel" id="AB59C650-6242-3120-E46F-B38328E00060">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 16:24:57 UTC</createdTime>
+<generatorID>9E2A202E-AFE1-6249-5BFF-EFB4B2A7E998</generatorID>
+<ownerDesignName>BP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementMinValue>1</autoIncrementMinValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>SEQ_ODJEL</autoIncrementSequenceName>
+<autoIncrementTriggerName>TRG_ODJEL</autoIncrementTriggerName>
+</Column>
+<Column name="Naziv" id="62138A71-E260-E47F-9789-9DA4A8FAA602">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 16:24:57 UTC</createdTime>
+<generatorID>15279C7F-D9A6-968D-90CC-8EC21C955C4E</generatorID>
+<ownerDesignName>BP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="83D209E6-0EB3-7237-AC3B-78BE00DC123B" name="ODJELI_PK">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 16:24:57 UTC</createdTime>
+<generatorID>1033229F-28E2-79D7-2589-993B970B8F28</generatorID>
+<ownerDesignName>BP</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AB59C650-6242-3120-E46F-B38328E00060"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

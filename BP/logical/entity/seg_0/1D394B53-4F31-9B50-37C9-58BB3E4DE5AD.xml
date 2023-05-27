@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1D394B53-4F31-9B50-37C9-58BB3E4DE5AD" name="Ozljede">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 15:18:33 UTC</createdTime>
+<ownerDesignName>BP</ownerDesignName>
+<engineerTo>
+<item key="C1D0C0EC-C78B-60FC-AB5F-199AE7E00C81" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>Ozljede</preferredAbbreviation>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID O" id="11A0A2D9-E33C-8814-C4B0-ED4EF4C53C69">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 15:18:44 UTC</createdTime>
+<ownerDesignName>BP</ownerDesignName>
+<engineerTo>
+<item key="C1D0C0EC-C78B-60FC-AB5F-199AE7E00C81" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Naziv" id="80D1088F-AC22-602E-1185-7BE9A89D5E66">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 15:19:00 UTC</createdTime>
+<ownerDesignName>BP</ownerDesignName>
+<engineerTo>
+<item key="C1D0C0EC-C78B-60FC-AB5F-199AE7E00C81" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9DD1FA5F-9FFD-9D45-8CE8-6FCE40173704" name="Ozljede_PK">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 15:18:58 UTC</createdTime>
+<ownerDesignName>BP</ownerDesignName>
+<engineerTo>
+<item key="C1D0C0EC-C78B-60FC-AB5F-199AE7E00C81" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>11A0A2D9-E33C-8814-C4B0-ED4EF4C53C69</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

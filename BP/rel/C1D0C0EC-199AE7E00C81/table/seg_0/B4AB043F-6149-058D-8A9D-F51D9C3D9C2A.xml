@@ -1,0 +1,54 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B4AB043F-6149-058D-8A9D-F51D9C3D9C2A" name="Drzave">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 16:24:57 UTC</createdTime>
+<generatorID>68CF19AB-CAC5-9471-0DA3-B7F114412D87</generatorID>
+<ownerDesignName>BP</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Drzava" id="B4347D5C-BE31-4200-4ECA-C0A70A956A8D">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 16:24:57 UTC</createdTime>
+<generatorID>4285D419-0EA5-A8E4-8B1B-74F37F06F8D3</generatorID>
+<ownerDesignName>BP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementMinValue>1</autoIncrementMinValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>SEQ_DRZAVA</autoIncrementSequenceName>
+<autoIncrementTriggerName>TRG_DRZAVA</autoIncrementTriggerName>
+</Column>
+<Column name="Naziv" id="4C3BF2F0-789B-BA89-A767-58E95991419A">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 16:24:57 UTC</createdTime>
+<generatorID>106AE5EA-01AA-069D-CCE4-D1784C0F45E9</generatorID>
+<ownerDesignName>BP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E8ACA3CF-1C44-C41F-E85C-0A3B3A594B81" name="Drzave_PK">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 16:24:57 UTC</createdTime>
+<generatorID>6E0A0CF1-52C2-9628-D134-A760BD480163</generatorID>
+<ownerDesignName>BP</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B4347D5C-BE31-4200-4ECA-C0A70A956A8D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

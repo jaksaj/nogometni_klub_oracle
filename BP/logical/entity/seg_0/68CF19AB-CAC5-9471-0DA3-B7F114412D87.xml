@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="68CF19AB-CAC5-9471-0DA3-B7F114412D87" name="Drzave">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 15:16:08 UTC</createdTime>
+<ownerDesignName>BP</ownerDesignName>
+<engineerTo>
+<item key="C1D0C0EC-C78B-60FC-AB5F-199AE7E00C81" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>Drzave</preferredAbbreviation>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID Drzava" id="4285D419-0EA5-A8E4-8B1B-74F37F06F8D3">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 15:16:21 UTC</createdTime>
+<ownerDesignName>BP</ownerDesignName>
+<engineerTo>
+<item key="C1D0C0EC-C78B-60FC-AB5F-199AE7E00C81" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Naziv" id="106AE5EA-01AA-069D-CCE4-D1784C0F45E9">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 15:16:43 UTC</createdTime>
+<ownerDesignName>BP</ownerDesignName>
+<engineerTo>
+<item key="C1D0C0EC-C78B-60FC-AB5F-199AE7E00C81" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6E0A0CF1-52C2-9628-D134-A760BD480163" name="Drzave_PK">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 15:16:59 UTC</createdTime>
+<ownerDesignName>BP</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="C1D0C0EC-C78B-60FC-AB5F-199AE7E00C81" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4285D419-0EA5-A8E4-8B1B-74F37F06F8D3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

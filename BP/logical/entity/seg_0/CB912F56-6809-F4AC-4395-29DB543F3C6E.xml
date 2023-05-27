@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CB912F56-6809-F4AC-4395-29DB543F3C6E" name="Vlasnici kluba">
+<createdBy>student</createdBy>
+<createdTime>2023-03-13 10:37:39 UTC</createdTime>
+<ownerDesignName>BP</ownerDesignName>
+<engineerTo>
+<item key="C1D0C0EC-C78B-60FC-AB5F-199AE7E00C81" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>Vlasnici_kluba</preferredAbbreviation>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Udio" id="76813BE1-395B-26A8-6C19-58D62EC99915">
+<createdBy>student</createdBy>
+<createdTime>2023-03-13 10:38:30 UTC</createdTime>
+<ownerDesignName>BP</ownerDesignName>
+<engineerTo>
+<item key="C1D0C0EC-C78B-60FC-AB5F-199AE7E00C81" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Klubovi ID Klub" id="26C4BD72-C78D-542E-2BBF-86DD994CEF34">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 16:04:26 UTC</createdTime>
+<generatorID>7F1D5A8C-4FF5-946F-DBF8-33B1100FDE41</generatorID>
+<ownerDesignName>BP</ownerDesignName>
+<engineerTo>
+<item key="C1D0C0EC-C78B-60FC-AB5F-199AE7E00C81" value="true"/>
+</engineerTo>
+<referedAttribute>CCF21EBA-8FB9-3C5E-FBD3-5009D0753AC3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Vlasnici ID Vlasnik" id="DB1A3E56-197B-C7F5-D89B-E6E07D8D938D">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 16:04:35 UTC</createdTime>
+<generatorID>A17D7028-071D-DCBC-100D-2346F12B20B0</generatorID>
+<ownerDesignName>BP</ownerDesignName>
+<engineerTo>
+<item key="C1D0C0EC-C78B-60FC-AB5F-199AE7E00C81" value="true"/>
+</engineerTo>
+<referedAttribute>8BC8EB7B-3821-488E-A46A-29AC6707F776</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1DB8FECA-923D-F5F4-CEBC-159576E1CF98" name="Vlasnici_kluba_PK">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 16:32:15 UTC</createdTime>
+<ownerDesignName>BP</ownerDesignName>
+<engineerTo>
+<item key="C1D0C0EC-C78B-60FC-AB5F-199AE7E00C81" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DB1A3E56-197B-C7F5-D89B-E6E07D8D938D</attributeRef>
+<attributeRef>26C4BD72-C78D-542E-2BBF-86DD994CEF34</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

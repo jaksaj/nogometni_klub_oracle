@@ -1,0 +1,54 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B5F1BF3B-B778-DC24-B220-89C4F82C041B" name="Branse">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 16:24:57 UTC</createdTime>
+<generatorID>21BE63F0-3975-B86F-4564-27893FEF9FFC</generatorID>
+<ownerDesignName>BP</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_bransa" id="ABD47E6D-6D1A-7376-75D8-1E150A4AE28E">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 16:24:57 UTC</createdTime>
+<generatorID>A7DCD683-CFF4-F5B7-D16B-C66AB38555FC</generatorID>
+<ownerDesignName>BP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementMinValue>1</autoIncrementMinValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>SEQ_BRANSA</autoIncrementSequenceName>
+<autoIncrementTriggerName>TRG_BRANSA</autoIncrementTriggerName>
+</Column>
+<Column name="Naziv" id="923C03C9-D4C0-4D4F-0A08-8567B2BF4C46">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 16:24:57 UTC</createdTime>
+<generatorID>E302EC33-BA01-8B1F-B7F0-F1BAA5C4C612</generatorID>
+<ownerDesignName>BP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="338EA884-046F-E7EB-2B78-13BC4BADEF4D" name="Branse_PK">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 16:24:57 UTC</createdTime>
+<generatorID>63A0EB57-EC36-4AFF-CAD7-671AA820B9D1</generatorID>
+<ownerDesignName>BP</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ABD47E6D-6D1A-7376-75D8-1E150A4AE28E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

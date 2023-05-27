@@ -1,0 +1,162 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BC4167A1-B17F-5C28-7905-2EFC4734B579" name="Zaposlenici">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 16:24:57 UTC</createdTime>
+<generatorID>BEFBA7E8-817F-DE97-E9FA-467161F0DFA1</generatorID>
+<ownerDesignName>BP</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Zaposlenik" id="1502EC1E-8003-1492-26D4-3A9E4C222B66">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 16:24:57 UTC</createdTime>
+<generatorID>9EAAA4B5-8B25-45E8-DC86-1376622A89ED</generatorID>
+<ownerDesignName>BP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementMinValue>1</autoIncrementMinValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>SEQ_ZAPOSLENIK</autoIncrementSequenceName>
+<autoIncrementTriggerName>TRG_ZAPOSLENIK</autoIncrementTriggerName>
+</Column>
+<Column name="Placa" id="54DCA7F0-1DB2-5B86-F459-3681356E15C7">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 16:24:57 UTC</createdTime>
+<generatorID>8ABB760E-A8D0-60CC-DA0F-E4EFBA382BAD</generatorID>
+<ownerDesignName>BP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Klubovi_ID_Klub" id="20EE5ADC-F407-07A7-C7CD-9173E923D56C">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 16:24:57 UTC</createdTime>
+<generatorID>8BF88087-CE13-97DE-F228-ABDC05366F30</generatorID>
+<ownerDesignName>BP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EC58CEBD-E306-C9D3-2E71-C4AD5A7172D3" referredColumn="2E53C48A-8831-2963-9030-291A69B0FFF9"/>
+</associations>
+</Column>
+<Column name="Funkcije_ID_Funkcija" id="3D545C3D-2A3F-A7A9-6DD2-B047CD742CC1">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 16:24:57 UTC</createdTime>
+<generatorID>AAE6FD79-A6B4-F4A3-DE24-FB5F540CA218</generatorID>
+<ownerDesignName>BP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ACEC1FE7-1BEB-9E6E-9A21-E9622A2D9FBE" referredColumn="B540B60B-56E8-60AF-E269-B20101669035"/>
+</associations>
+</Column>
+<Column name="ODJELI_ID_Odjel" id="4BAF8822-D50B-F950-E842-4BB6755D782F">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 16:24:57 UTC</createdTime>
+<generatorID>6B2D6753-1507-2F2B-41EA-26427A535417</generatorID>
+<ownerDesignName>BP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="848454E7-6765-4EAF-8EB7-73B29503F168" referredColumn="AB59C650-6242-3120-E46F-B38328E00060"/>
+</associations>
+</Column>
+<Column name="Zaposlenici_ID_Zaposlenik" id="67B8EF89-8A48-42E6-AFA1-B7EEB841E38D">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-18 13:34:02 UTC</createdTime>
+<generatorID>A41D687B-B165-61C0-0D00-BBBFCB7EF0AD</generatorID>
+<ownerDesignName>BP</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="60924570-F5FA-0E3A-B3D9-AC36CFE06458" referredColumn="1502EC1E-8003-1492-26D4-3A9E4C222B66"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C2C8ECBE-6C75-54C2-09B6-DB93570A971C" name="Zaposlenici_PK">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 16:24:57 UTC</createdTime>
+<generatorID>320385CF-E0D5-662C-162A-B720F72E49B9</generatorID>
+<ownerDesignName>BP</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1502EC1E-8003-1492-26D4-3A9E4C222B66"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8777F8FA-7CB2-C56A-958E-55AC35C18034" name="Zaposlenici_Klubovi_FK">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 16:24:57 UTC</createdTime>
+<generatorID>569BEB92-BFE5-2E4B-795C-34F5F8A633B0</generatorID>
+<ownerDesignName>BP</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="20EE5ADC-F407-07A7-C7CD-9173E923D56C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F886DF38-71B2-4D37-5341-4BEF802AC312" name="Zaposlenici_Funkcije_FK">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 16:24:57 UTC</createdTime>
+<generatorID>CB51B932-3B0A-697F-D3F2-3D006E04B95B</generatorID>
+<ownerDesignName>BP</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3D545C3D-2A3F-A7A9-6DD2-B047CD742CC1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8C12C6D9-4620-C0DF-56B0-98DF05AE0824" name="Zaposlenici_ODJELI_FK">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 16:24:57 UTC</createdTime>
+<generatorID>749E0CF2-89D4-E741-70DE-C5F42C2EAE9C</generatorID>
+<ownerDesignName>BP</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4BAF8822-D50B-F950-E842-4BB6755D782F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="908368CD-3114-8FBE-E308-42C9EF821A1D" name="Zaposlenici_Zaposlenici_FK">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-18 13:34:02 UTC</createdTime>
+<generatorID>1B99ADD4-552A-D005-7FF3-E7F02D221A56</generatorID>
+<ownerDesignName>BP</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="67B8EF89-8A48-42E6-AFA1-B7EEB841E38D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

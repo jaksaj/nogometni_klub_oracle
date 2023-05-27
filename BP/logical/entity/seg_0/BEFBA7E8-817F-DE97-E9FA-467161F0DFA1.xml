@@ -1,0 +1,121 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BEFBA7E8-817F-DE97-E9FA-467161F0DFA1" name="Zaposlenici">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 15:20:10 UTC</createdTime>
+<ownerDesignName>BP</ownerDesignName>
+<engineerTo>
+<item key="C1D0C0EC-C78B-60FC-AB5F-199AE7E00C81" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>Zaposlenici</preferredAbbreviation>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID Zaposlenik" id="9EAAA4B5-8B25-45E8-DC86-1376622A89ED">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 15:20:22 UTC</createdTime>
+<ownerDesignName>BP</ownerDesignName>
+<engineerTo>
+<item key="C1D0C0EC-C78B-60FC-AB5F-199AE7E00C81" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Placa" id="8ABB760E-A8D0-60CC-DA0F-E4EFBA382BAD">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 15:20:48 UTC</createdTime>
+<ownerDesignName>BP</ownerDesignName>
+<engineerTo>
+<item key="C1D0C0EC-C78B-60FC-AB5F-199AE7E00C81" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Klubovi ID Klub" id="8BF88087-CE13-97DE-F228-ABDC05366F30">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 16:05:09 UTC</createdTime>
+<generatorID>569BEB92-BFE5-2E4B-795C-34F5F8A633B0</generatorID>
+<ownerDesignName>BP</ownerDesignName>
+<engineerTo>
+<item key="C1D0C0EC-C78B-60FC-AB5F-199AE7E00C81" value="true"/>
+</engineerTo>
+<referedAttribute>CCF21EBA-8FB9-3C5E-FBD3-5009D0753AC3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Funkcije ID Funkcija" id="AAE6FD79-A6B4-F4A3-DE24-FB5F540CA218">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 16:05:23 UTC</createdTime>
+<generatorID>CB51B932-3B0A-697F-D3F2-3D006E04B95B</generatorID>
+<ownerDesignName>BP</ownerDesignName>
+<engineerTo>
+<item key="C1D0C0EC-C78B-60FC-AB5F-199AE7E00C81" value="true"/>
+</engineerTo>
+<referedAttribute>F272CC05-60D0-037C-1DF4-C9634F94356D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ODJELI ID Odjel" id="6B2D6753-1507-2F2B-41EA-26427A535417">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 16:05:29 UTC</createdTime>
+<generatorID>749E0CF2-89D4-E741-70DE-C5F42C2EAE9C</generatorID>
+<ownerDesignName>BP</ownerDesignName>
+<engineerTo>
+<item key="C1D0C0EC-C78B-60FC-AB5F-199AE7E00C81" value="true"/>
+</engineerTo>
+<referedAttribute>9E2A202E-AFE1-6249-5BFF-EFB4B2A7E998</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Zaposlenici ID Zaposlenik" id="A41D687B-B165-61C0-0D00-BBBFCB7EF0AD">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-18 11:17:11 UTC</createdTime>
+<generatorID>1B99ADD4-552A-D005-7FF3-E7F02D221A56</generatorID>
+<ownerDesignName>BP</ownerDesignName>
+<engineerTo>
+<item key="C1D0C0EC-C78B-60FC-AB5F-199AE7E00C81" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>9EAAA4B5-8B25-45E8-DC86-1376622A89ED</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="320385CF-E0D5-662C-162A-B720F72E49B9" name="Zaposlenici_PK">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 15:21:18 UTC</createdTime>
+<ownerDesignName>BP</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="C1D0C0EC-C78B-60FC-AB5F-199AE7E00C81" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9EAAA4B5-8B25-45E8-DC86-1376622A89ED</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

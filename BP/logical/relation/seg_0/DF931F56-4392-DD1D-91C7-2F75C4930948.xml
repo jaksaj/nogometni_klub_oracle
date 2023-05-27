@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="IG O Igraci FK" directorySegmentName="seg_0" id="DF931F56-4392-DD1D-91C7-2F75C4930948">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 16:06:03 UTC</createdTime>
+<ownerDesignName>BP</ownerDesignName>
+<engineerTo>
+<item key="C1D0C0EC-C78B-60FC-AB5F-199AE7E00C81" value="true"/>
+</engineerTo>
+<sourcePk>B6E64716-0744-8394-D5AC-97F77D861DA4</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>51AD37DA-980F-E211-C51B-63FEE8F90896</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6DE8F5DB-63A1-2AA7-5FE1-401C7643A926</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

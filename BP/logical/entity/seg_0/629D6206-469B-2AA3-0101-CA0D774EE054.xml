@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="629D6206-469B-2AA3-0101-CA0D774EE054" name="Sponzori">
+<createdBy>student</createdBy>
+<createdTime>2023-03-13 10:33:41 UTC</createdTime>
+<ownerDesignName>BP</ownerDesignName>
+<engineerTo>
+<item key="C1D0C0EC-C78B-60FC-AB5F-199AE7E00C81" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>Sponzori</preferredAbbreviation>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID Sponzor" id="6BB76AAE-B1E3-B635-1D3E-90EE7FB380FB">
+<createdBy>student</createdBy>
+<createdTime>2023-03-13 10:34:03 UTC</createdTime>
+<ownerDesignName>BP</ownerDesignName>
+<engineerTo>
+<item key="C1D0C0EC-C78B-60FC-AB5F-199AE7E00C81" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Naziv" id="DDBAAAC4-5E20-300F-90CE-CBA5F7057E63">
+<createdBy>student</createdBy>
+<createdTime>2023-03-13 10:34:25 UTC</createdTime>
+<ownerDesignName>BP</ownerDesignName>
+<engineerTo>
+<item key="C1D0C0EC-C78B-60FC-AB5F-199AE7E00C81" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Branse ID bransa" id="4C0BC526-9F9E-2FFE-1E1A-9D6949EFEF6E">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 16:04:18 UTC</createdTime>
+<generatorID>BF7E51CF-9A5C-6B83-8666-4F781B9654B0</generatorID>
+<ownerDesignName>BP</ownerDesignName>
+<engineerTo>
+<item key="C1D0C0EC-C78B-60FC-AB5F-199AE7E00C81" value="true"/>
+</engineerTo>
+<referedAttribute>A7DCD683-CFF4-F5B7-D16B-C66AB38555FC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="11D50441-38BC-7DA9-2EF6-924540366F76" name="Sponzori_PK">
+<createdBy>student</createdBy>
+<createdTime>2023-03-13 10:34:21 UTC</createdTime>
+<ownerDesignName>BP</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="C1D0C0EC-C78B-60FC-AB5F-199AE7E00C81" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6BB76AAE-B1E3-B635-1D3E-90EE7FB380FB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

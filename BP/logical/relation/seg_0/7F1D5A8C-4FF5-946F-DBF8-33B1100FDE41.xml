@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Vlasnici kluba Klubovi FK" directorySegmentName="seg_0" id="7F1D5A8C-4FF5-946F-DBF8-33B1100FDE41">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 16:04:26 UTC</createdTime>
+<ownerDesignName>BP</ownerDesignName>
+<engineerTo>
+<item key="C1D0C0EC-C78B-60FC-AB5F-199AE7E00C81" value="true"/>
+</engineerTo>
+<sourcePk>2E497C35-5A5B-FEBC-2D89-79D34A7D6A9F</sourcePk>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>3E961224-2FD1-6154-2B86-5CDF225F4E44</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>CB912F56-6809-F4AC-4395-29DB543F3C6E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

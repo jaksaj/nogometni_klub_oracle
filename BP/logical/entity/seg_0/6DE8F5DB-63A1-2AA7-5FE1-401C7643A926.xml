@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6DE8F5DB-63A1-2AA7-5FE1-401C7643A926" name="IG O">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 15:17:10 UTC</createdTime>
+<ownerDesignName>BP</ownerDesignName>
+<engineerTo>
+<item key="C1D0C0EC-C78B-60FC-AB5F-199AE7E00C81" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID IO" id="8A962EC3-9D4B-CFCC-FACA-982D03372F3F">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 15:17:40 UTC</createdTime>
+<ownerDesignName>BP</ownerDesignName>
+<engineerTo>
+<item key="C1D0C0EC-C78B-60FC-AB5F-199AE7E00C81" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Pocetak" id="FA2DCEB5-A5BF-10D5-2F6C-90B96336AD2A">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 15:18:06 UTC</createdTime>
+<ownerDesignName>BP</ownerDesignName>
+<engineerTo>
+<item key="C1D0C0EC-C78B-60FC-AB5F-199AE7E00C81" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Kraj" id="EE01401F-A9A2-D45D-6ACE-BFF8FD1AD096">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 15:18:22 UTC</createdTime>
+<ownerDesignName>BP</ownerDesignName>
+<engineerTo>
+<item key="C1D0C0EC-C78B-60FC-AB5F-199AE7E00C81" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Igraci ID Igrac" id="47859555-75BE-D8C2-E57D-1262558B9041">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 16:06:03 UTC</createdTime>
+<generatorID>DF931F56-4392-DD1D-91C7-2F75C4930948</generatorID>
+<ownerDesignName>BP</ownerDesignName>
+<engineerTo>
+<item key="C1D0C0EC-C78B-60FC-AB5F-199AE7E00C81" value="true"/>
+</engineerTo>
+<referedAttribute>4FC7BC42-07F0-28B7-9527-55FD6147E236</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Ozljede ID O" id="9BFD1C31-334B-30A6-D0FB-7F7651EF8684">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 16:06:16 UTC</createdTime>
+<generatorID>DCA69558-E1E9-E6E0-7148-E40B14F589BC</generatorID>
+<ownerDesignName>BP</ownerDesignName>
+<engineerTo>
+<item key="C1D0C0EC-C78B-60FC-AB5F-199AE7E00C81" value="true"/>
+</engineerTo>
+<referedAttribute>11A0A2D9-E33C-8814-C4B0-ED4EF4C53C69</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D215579E-93D7-2EA3-247F-0261ECF29627" name="IG_O_PK">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 15:17:54 UTC</createdTime>
+<ownerDesignName>BP</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="C1D0C0EC-C78B-60FC-AB5F-199AE7E00C81" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8A962EC3-9D4B-CFCC-FACA-982D03372F3F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="UTAKMICE SUCI FK" directorySegmentName="seg_0" id="2B32D51C-BBE5-4B78-B5AE-3C864DADF90D">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 16:11:13 UTC</createdTime>
+<ownerDesignName>BP</ownerDesignName>
+<engineerTo>
+<item key="C1D0C0EC-C78B-60FC-AB5F-199AE7E00C81" value="true"/>
+</engineerTo>
+<sourcePk>CDC0CAC0-FE8E-15AC-074B-FEB1DB5C5871</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>96839179-CC4C-89DB-A886-1825B0BAA0B6</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>87DF1D66-2049-B7AB-BD97-2862F56CD028</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

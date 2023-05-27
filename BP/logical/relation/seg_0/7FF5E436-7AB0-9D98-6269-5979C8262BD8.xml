@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="STADIONI MJESTA FK" directorySegmentName="seg_0" id="7FF5E436-7AB0-9D98-6269-5979C8262BD8">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 16:11:48 UTC</createdTime>
+<ownerDesignName>BP</ownerDesignName>
+<engineerTo>
+<item key="C1D0C0EC-C78B-60FC-AB5F-199AE7E00C81" value="true"/>
+</engineerTo>
+<sourcePk>FE852970-0779-F86A-1806-6CDCE2EB6385</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B0332341-4FDC-A89F-F3E4-6BBC9A318150</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F5F2C3F4-B33F-6D72-6207-A06674F09E64</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,144 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="46A72B13-6A8F-53FC-74F9-B7192299BBFE" name="Ugovori">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 16:24:57 UTC</createdTime>
+<generatorID>21F3463A-7385-5A49-4676-4C554DC696B2</generatorID>
+<ownerDesignName>BP</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Ugovor" id="C8397F66-7478-13C4-17C9-6058B6AEE204">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 16:24:57 UTC</createdTime>
+<generatorID>E9D83CA5-D84C-351C-DC0F-C6A4268BFC5B</generatorID>
+<ownerDesignName>BP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementMinValue>1</autoIncrementMinValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>SEQ_UGOVOR</autoIncrementSequenceName>
+<autoIncrementTriggerName>TRG_UGOVOR</autoIncrementTriggerName>
+</Column>
+<Column name="Pocetak" id="78131187-12C9-FC35-6E9E-53F59A2167C2">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 16:24:57 UTC</createdTime>
+<generatorID>D63B68EE-4DD1-7EF9-CCDB-2DEB8F0D646F</generatorID>
+<ownerDesignName>BP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Kraj" id="3113FBC5-859F-8B27-0BCE-97231082FC4D">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 16:24:57 UTC</createdTime>
+<generatorID>B939F178-D1C9-8D86-1345-87DDCF641EA9</generatorID>
+<ownerDesignName>BP</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Vrijednost" id="D6B1483D-B4DF-E487-7456-17B3DA7AE839">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 16:24:57 UTC</createdTime>
+<generatorID>4A71B297-FAFD-D8E7-76D4-B964DE630DB6</generatorID>
+<ownerDesignName>BP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Napomena" id="B33CB4A1-2C28-7BD3-C8E1-D80B0FDDB1D9">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 16:24:57 UTC</createdTime>
+<generatorID>D5122FDB-243D-A5E2-FD54-CDAEF026B472</generatorID>
+<ownerDesignName>BP</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Klubovi_ID_Klub" id="77166B3F-371E-A5C8-D3B9-582C44586981">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 16:24:57 UTC</createdTime>
+<generatorID>87F26DB2-6C9A-717E-1541-B2832AAC58D0</generatorID>
+<ownerDesignName>BP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7F10A292-11E9-8207-7065-186D8DC9EB47" referredColumn="2E53C48A-8831-2963-9030-291A69B0FFF9"/>
+</associations>
+</Column>
+<Column name="Sponzori_ID_Sponzor" id="19575B74-21F2-366E-5E7C-531A848B617D">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 16:24:57 UTC</createdTime>
+<generatorID>D8E6A2AD-27E5-43CD-B071-91163EC08185</generatorID>
+<ownerDesignName>BP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="99EEACB6-24F4-C3A1-AC59-779501CDA8E0" referredColumn="20725AC5-0000-4D03-1489-183CE1D40BDB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5CBF9721-1EA8-6AAB-3F5E-65DD7B8D79D9" name="Ugovori_PK">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 16:24:57 UTC</createdTime>
+<generatorID>8AF1F0AC-24D3-F5BF-5D02-5D7A476FA741</generatorID>
+<ownerDesignName>BP</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C8397F66-7478-13C4-17C9-6058B6AEE204"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6D12E289-D2E7-AEDA-39C5-7D7AD1896C64" name="Ugovori_Klubovi_FK">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 16:24:57 UTC</createdTime>
+<generatorID>AC33F229-F9C0-4DE2-3F11-AA9A89EA7148</generatorID>
+<ownerDesignName>BP</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="77166B3F-371E-A5C8-D3B9-582C44586981"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EEA36622-A86F-AA66-74D4-BBECE8A6F4F7" name="Ugovori_Sponzori_FK">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 16:24:57 UTC</createdTime>
+<generatorID>4E7B7BF2-4F29-4BFA-33D6-E9F135CFB76F</generatorID>
+<ownerDesignName>BP</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="19575B74-21F2-366E-5E7C-531A848B617D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

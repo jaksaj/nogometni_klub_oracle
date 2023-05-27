@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="EK SEZ SEZONE FK" directorySegmentName="seg_0" id="D9C6A7E2-2AC6-9F78-CC0A-36179E1322C1">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 16:13:15 UTC</createdTime>
+<ownerDesignName>BP</ownerDesignName>
+<engineerTo>
+<item key="C1D0C0EC-C78B-60FC-AB5F-199AE7E00C81" value="true"/>
+</engineerTo>
+<sourcePk>9B285EC3-1FEA-1571-FE54-F9AC970F4EF0</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>0B468F8E-54FD-0BEF-5A27-2175B1006BBC</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>DB13806A-145E-5D3B-C40C-B1244433EFB1</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

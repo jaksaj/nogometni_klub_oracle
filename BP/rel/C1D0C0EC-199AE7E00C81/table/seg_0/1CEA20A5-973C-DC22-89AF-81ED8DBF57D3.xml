@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1CEA20A5-973C-DC22-89AF-81ED8DBF57D3" name="EK_SEZ">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 16:24:57 UTC</createdTime>
+<generatorID>DB13806A-145E-5D3B-C40C-B1244433EFB1</generatorID>
+<ownerDesignName>BP</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SEZONE_ID_Sezona" id="736DBF2A-8C4B-1450-D6D3-D0883C435523">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 16:24:57 UTC</createdTime>
+<generatorID>7E266671-0740-3E90-F100-1D8B5649901F</generatorID>
+<ownerDesignName>BP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2E00A6C3-0E8C-3D1B-C2D6-03736AB7A87B" referredColumn="D7189519-AE58-F8D5-58B5-826CCCA7D079"/>
+</associations>
+</Column>
+<Column name="EKIPE_ID_Ekipa" id="C6E55C89-BC99-82A9-EEC7-31CE0B91F48F">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 16:28:03 UTC</createdTime>
+<generatorID>C4EBF69E-0367-3B37-4684-1410CB5DA10A</generatorID>
+<ownerDesignName>BP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="79475FB0-75E3-9605-3D9F-EA2C000B0DF3" referredColumn="9ABDBAB2-94ED-FEEF-00F8-B0E8D90AE23B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="39A5B847-5722-BFE7-0C04-B2FBABFC8AE3" name="EK_SEZ_PKv1">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 16:28:03 UTC</createdTime>
+<generatorID>BCB8A766-D04B-FB27-42E0-300C4577FF63</generatorID>
+<ownerDesignName>BP</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C6E55C89-BC99-82A9-EEC7-31CE0B91F48F"/>
+<colUsage columnID="736DBF2A-8C4B-1450-D6D3-D0883C435523"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6AACDCCD-8910-70E4-A0B6-2A0A2196D86B" name="EK_SEZ_SEZONE_FK">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 16:24:57 UTC</createdTime>
+<generatorID>D9C6A7E2-2AC6-9F78-CC0A-36179E1322C1</generatorID>
+<ownerDesignName>BP</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="736DBF2A-8C4B-1450-D6D3-D0883C435523"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DA256B85-046B-0291-CC29-F7CE7064AC8B" name="EK_SEZ_EKIPE_FK">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 16:28:03 UTC</createdTime>
+<generatorID>5764C5EF-BBDD-2CB3-1628-1D398E556ED3</generatorID>
+<ownerDesignName>BP</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C6E55C89-BC99-82A9-EEC7-31CE0B91F48F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="NATJECANJA_UZRASTI_FK" directorySegmentName="seg_0" id="E4189D7C-09CE-9FEC-5BA3-AB437E62BB55">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-28 13:17:35 UTC</createdTime>
+<generatorID>14F63185-05BD-56B0-58FD-624C6F12718F</generatorID>
+<ownerDesignName>BP</ownerDesignName>
+<engineerTo>
+<item key="C1D0C0EC-C78B-60FC-AB5F-199AE7E00C81" value="true"/>
+</engineerTo>
+<sourcePk>C4E839AF-0DFE-938B-D2F6-10236EC950A0</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B1E72C6A-5148-D5CE-267C-BDFE5C3B2B55</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>FE1D32B6-9287-B272-6A8C-45DF635A8830</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

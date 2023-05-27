@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BA6F89F2-A17B-5F9C-A624-4F272ABE34BD" name="I_ES">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-18 16:34:16 UTC</createdTime>
+<generatorID>78811331-4355-4473-4DE3-8F27533615CB</generatorID>
+<ownerDesignName>BP</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Igraci_ID_Igrac" id="61088BC2-BA6F-99D4-EDFB-F3F50C0CFF26">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-18 16:34:16 UTC</createdTime>
+<generatorID>3BDB483E-2D7A-FEAB-BDE8-AFC3C366956F</generatorID>
+<ownerDesignName>BP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1C8A3A4F-92A7-BD33-9461-95C84E8DEFF4" referredColumn="5CA3D495-4711-233C-C518-BEB59E44422A"/>
+</associations>
+</Column>
+<Column name="EK_SEZ_EKIPE_ID_Ekipa" id="84CDC4B1-DDFD-3D45-FE96-290CB460FB15">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-18 16:34:16 UTC</createdTime>
+<generatorID>99878DD4-46F0-1462-3947-AFD2A969DBA1</generatorID>
+<ownerDesignName>BP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2ED20598-2CF7-945F-71DA-17B10567BC05" referredColumn="C6E55C89-BC99-82A9-EEC7-31CE0B91F48F"/>
+</associations>
+</Column>
+<Column name="EK_SEZ_SEZONE_ID_Sezona" id="BCA059E9-9C97-981D-DB93-C63CF63D8BC2">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-18 16:34:16 UTC</createdTime>
+<generatorID>0597DDFE-A9F7-3BDC-3D2B-DE3E8D77941A</generatorID>
+<ownerDesignName>BP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2ED20598-2CF7-945F-71DA-17B10567BC05" referredColumn="736DBF2A-8C4B-1450-D6D3-D0883C435523"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2C10A23E-299B-B605-A788-CF61DFC7266C" name="I_ES_PK">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-18 16:34:16 UTC</createdTime>
+<generatorID>5258B1BA-6FF6-BB03-1916-DAF8241CC062</generatorID>
+<ownerDesignName>BP</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="84CDC4B1-DDFD-3D45-FE96-290CB460FB15"/>
+<colUsage columnID="BCA059E9-9C97-981D-DB93-C63CF63D8BC2"/>
+<colUsage columnID="61088BC2-BA6F-99D4-EDFB-F3F50C0CFF26"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9696241B-F9AA-2DBF-A201-26505CA6E70E" name="I_ES_Igraci_FK">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-18 16:34:16 UTC</createdTime>
+<generatorID>B4C270CC-D480-67EE-BDF2-609D398BA9D0</generatorID>
+<ownerDesignName>BP</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="61088BC2-BA6F-99D4-EDFB-F3F50C0CFF26"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="200CF489-8A24-F9F4-6DEB-2CE4E6359555" name="I_ES_EK_SEZ_FK">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-18 16:34:16 UTC</createdTime>
+<generatorID>923063C0-A18B-03DF-AF1B-758F10100D09</generatorID>
+<ownerDesignName>BP</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="84CDC4B1-DDFD-3D45-FE96-290CB460FB15"/>
+<colUsage columnID="BCA059E9-9C97-981D-DB93-C63CF63D8BC2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

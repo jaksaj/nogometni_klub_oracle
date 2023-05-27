@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Zaposlenici Funkcije FK" directorySegmentName="seg_0" id="CB51B932-3B0A-697F-D3F2-3D006E04B95B">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 16:05:23 UTC</createdTime>
+<ownerDesignName>BP</ownerDesignName>
+<engineerTo>
+<item key="C1D0C0EC-C78B-60FC-AB5F-199AE7E00C81" value="true"/>
+</engineerTo>
+<sourcePk>6D26DFCA-2E2E-2B84-3070-2F87B03871D9</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>581DC9D5-AA6C-3DFC-6979-5F074B85BF66</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>BEFBA7E8-817F-DE97-E9FA-467161F0DFA1</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

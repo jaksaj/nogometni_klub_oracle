@@ -1,0 +1,144 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="83F59A91-9F76-D504-409B-59243F47DD01" name="T_E">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 16:24:57 UTC</createdTime>
+<generatorID>1614ED2B-76F1-822F-F523-3223800F1083</generatorID>
+<ownerDesignName>BP</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_TE" id="85AFAC04-E04D-1E5F-9D67-731BF00BC9DC">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 16:24:57 UTC</createdTime>
+<generatorID>03774766-5637-B394-4926-9FD818DBF701</generatorID>
+<ownerDesignName>BP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementMinValue>1</autoIncrementMinValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>SEQ_TE</autoIncrementSequenceName>
+<autoIncrementTriggerName>TRG_TE</autoIncrementTriggerName>
+</Column>
+<Column name="Pocetak" id="B98BC68A-84A5-66AD-4EBE-03F53CE3968F">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 16:24:57 UTC</createdTime>
+<generatorID>3610DABC-48CF-9F88-2C57-D674FAD08053</generatorID>
+<ownerDesignName>BP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Kraj" id="B43D2D53-9832-82B3-F394-7AB7A957D2D3">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 16:24:57 UTC</createdTime>
+<generatorID>CE0C5705-BA2D-5AA8-929F-28F2113D6E0E</generatorID>
+<ownerDesignName>BP</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TRENERI_ID_Trener" id="CD57B74B-E6C5-B76D-EEDD-DE9245F9FBB5">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 16:24:57 UTC</createdTime>
+<generatorID>B10F4710-51AD-871E-0042-5A27525069D6</generatorID>
+<ownerDesignName>BP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E24EB7B7-5F35-624A-C058-5F2EAC46217D" referredColumn="55054B8E-3675-DCD9-6C47-B1BB081250CF"/>
+</associations>
+</Column>
+<Column name="EKIPE_ID_Ekipa" id="BFDD373C-BD3D-8B1A-4125-21A1BA3D6B36">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 16:24:57 UTC</createdTime>
+<generatorID>9B2210A9-5BBC-A532-F4CE-E026F01F8D90</generatorID>
+<ownerDesignName>BP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BFC93206-8EAD-236B-8297-419315E6E650" referredColumn="9ABDBAB2-94ED-FEEF-00F8-B0E8D90AE23B"/>
+</associations>
+</Column>
+<Column name="Placa" id="FAC39A79-ADA3-2461-A639-27C3D2DA35C7">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-18 13:34:02 UTC</createdTime>
+<generatorID>35681E47-3D39-7226-1FB0-23EDC45AFCA3</generatorID>
+<ownerDesignName>BP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Napomena" id="5F583348-8056-E51B-A585-F38DCC07A151">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-18 13:34:02 UTC</createdTime>
+<generatorID>8A5FC75E-A565-E128-CF81-9019301449A9</generatorID>
+<ownerDesignName>BP</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="136E12A6-32E5-EE22-E0DC-969B918DCD8F" name="T_E_PK">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 16:24:57 UTC</createdTime>
+<generatorID>8AC100C5-18D0-BA7F-0980-D2425E16F59F</generatorID>
+<ownerDesignName>BP</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="85AFAC04-E04D-1E5F-9D67-731BF00BC9DC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F1D44C21-F6F8-C062-66E6-CDAC3AED3087" name="T_E_TRENERI_FK">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 16:24:57 UTC</createdTime>
+<generatorID>A7B68E71-083C-56D6-4AF4-974A469A60BA</generatorID>
+<ownerDesignName>BP</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CD57B74B-E6C5-B76D-EEDD-DE9245F9FBB5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="17E27E26-EF8A-C052-02F6-E784B553AE89" name="T_E_EKIPE_FK">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 16:24:57 UTC</createdTime>
+<generatorID>2E193B2A-24F7-E39D-6C78-7471C6B2A08F</generatorID>
+<ownerDesignName>BP</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BFDD373C-BD3D-8B1A-4125-21A1BA3D6B36"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

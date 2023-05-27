@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FEE4CBDD-F4A0-371C-0492-14C35233EC22" name="IG DRZ">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 15:15:50 UTC</createdTime>
+<ownerDesignName>BP</ownerDesignName>
+<engineerTo>
+<item key="C1D0C0EC-C78B-60FC-AB5F-199AE7E00C81" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Igraci ID Igrac" id="BF2DAE08-423C-5D5F-7F9E-861AA27384F5">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 16:06:52 UTC</createdTime>
+<generatorID>940891B8-BF85-487C-B83C-048A618D9B9B</generatorID>
+<ownerDesignName>BP</ownerDesignName>
+<engineerTo>
+<item key="C1D0C0EC-C78B-60FC-AB5F-199AE7E00C81" value="true"/>
+</engineerTo>
+<referedAttribute>4FC7BC42-07F0-28B7-9527-55FD6147E236</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Drzave ID Drzava" id="18A0E3F2-8E2C-F8C2-4B78-50D2859B6966">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 16:12:05 UTC</createdTime>
+<generatorID>2DD04962-FACA-1EA3-5C5F-027B966D0F5F</generatorID>
+<ownerDesignName>BP</ownerDesignName>
+<engineerTo>
+<item key="C1D0C0EC-C78B-60FC-AB5F-199AE7E00C81" value="true"/>
+</engineerTo>
+<referedAttribute>4285D419-0EA5-A8E4-8B1B-74F37F06F8D3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7EB2C499-6195-50ED-E948-9A0305FB8CBD" name="IG_DRZ_PK">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 16:26:13 UTC</createdTime>
+<ownerDesignName>BP</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="C1D0C0EC-C78B-60FC-AB5F-199AE7E00C81" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>18A0E3F2-8E2C-F8C2-4B78-50D2859B6966</attributeRef>
+<attributeRef>BF2DAE08-423C-5D5F-7F9E-861AA27384F5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

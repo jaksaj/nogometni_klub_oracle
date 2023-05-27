@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="IG DRZ Drzave FK" directorySegmentName="seg_0" id="2DD04962-FACA-1EA3-5C5F-027B966D0F5F">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 16:12:05 UTC</createdTime>
+<ownerDesignName>BP</ownerDesignName>
+<engineerTo>
+<item key="C1D0C0EC-C78B-60FC-AB5F-199AE7E00C81" value="true"/>
+</engineerTo>
+<sourcePk>6E0A0CF1-52C2-9628-D134-A760BD480163</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>68CF19AB-CAC5-9471-0DA3-B7F114412D87</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>FEE4CBDD-F4A0-371C-0492-14C35233EC22</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

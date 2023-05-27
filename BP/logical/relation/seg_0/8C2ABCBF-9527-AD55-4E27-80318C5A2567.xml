@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="I_U_EKIPE_FK" directorySegmentName="seg_0" id="8C2ABCBF-9527-AD55-4E27-80318C5A2567">
+<createdBy>JJ</createdBy>
+<createdTime>2023-04-01 14:46:08 UTC</createdTime>
+<generatorID>7C7A8779-9807-ABBE-8FA8-CF70624936A0</generatorID>
+<ownerDesignName>BP</ownerDesignName>
+<engineerTo>
+<item key="C1D0C0EC-C78B-60FC-AB5F-199AE7E00C81" value="true"/>
+</engineerTo>
+<sourcePk>6C1F627D-0A72-26B7-D25E-DADA212C10BC</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>2A56981D-A579-17E0-6C67-D0BE48E4A843</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C096EF56-842B-2601-3D02-2499C18F1C04</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

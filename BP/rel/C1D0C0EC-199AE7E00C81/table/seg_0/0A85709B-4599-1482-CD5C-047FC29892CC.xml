@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0A85709B-4599-1482-CD5C-047FC29892CC" name="MJESTA">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 16:24:57 UTC</createdTime>
+<generatorID>B0332341-4FDC-A89F-F3E4-6BBC9A318150</generatorID>
+<ownerDesignName>BP</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Mjesto" id="3FD060E7-8E39-1DB7-BB3D-65B1C26CD2EB">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 16:24:57 UTC</createdTime>
+<generatorID>13838744-360B-8494-BFD0-C14166BFCD5D</generatorID>
+<ownerDesignName>BP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementMinValue>1</autoIncrementMinValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>SEQ_MJESTO</autoIncrementSequenceName>
+<autoIncrementTriggerName>TRG_MJESTO</autoIncrementTriggerName>
+</Column>
+<Column name="Naziv" id="FA70EC51-963E-3D20-E1D4-89E50B141B46">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 16:24:57 UTC</createdTime>
+<generatorID>7532D561-D299-C578-A6C6-8D2C4CA4CACB</generatorID>
+<ownerDesignName>BP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Drzave_ID_Drzava" id="B36413C2-C0D4-7A9A-6428-738A7B0AEC14">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 16:24:57 UTC</createdTime>
+<generatorID>923A998A-CD09-9668-B2BC-3CAF73D2AF2A</generatorID>
+<ownerDesignName>BP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="263AB392-0B78-7328-F43E-CAC5FCE3C39F" referredColumn="B4347D5C-BE31-4200-4ECA-C0A70A956A8D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CCF2B56C-9F15-11AD-E689-8CE289D0D322" name="MJESTA_PK">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 16:24:57 UTC</createdTime>
+<generatorID>FE852970-0779-F86A-1806-6CDCE2EB6385</generatorID>
+<ownerDesignName>BP</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3FD060E7-8E39-1DB7-BB3D-65B1C26CD2EB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A30841F7-D763-8CF2-30E9-BBA531BAE205" name="MJESTA_Drzave_FK">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 16:24:57 UTC</createdTime>
+<generatorID>2AA8E193-5D3C-3A3D-5922-4B899CA24165</generatorID>
+<ownerDesignName>BP</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B36413C2-C0D4-7A9A-6428-738A7B0AEC14"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

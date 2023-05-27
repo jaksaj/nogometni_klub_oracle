@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="SEZONE NATJECANJA FK" directorySegmentName="seg_0" id="9F87EAC1-9A40-121E-87D9-3385D97E6444">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 16:13:02 UTC</createdTime>
+<ownerDesignName>BP</ownerDesignName>
+<engineerTo>
+<item key="C1D0C0EC-C78B-60FC-AB5F-199AE7E00C81" value="true"/>
+</engineerTo>
+<sourcePk>9C4FB6EE-6C76-A847-5B3C-F942E9A647E7</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>FE1D32B6-9287-B272-6A8C-45DF635A8830</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>0B468F8E-54FD-0BEF-5A27-2175B1006BBC</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

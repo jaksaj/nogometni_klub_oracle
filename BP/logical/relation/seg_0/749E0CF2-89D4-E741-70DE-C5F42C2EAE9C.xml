@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Zaposlenici ODJELI FK" directorySegmentName="seg_0" id="749E0CF2-89D4-E741-70DE-C5F42C2EAE9C">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 16:05:29 UTC</createdTime>
+<ownerDesignName>BP</ownerDesignName>
+<engineerTo>
+<item key="C1D0C0EC-C78B-60FC-AB5F-199AE7E00C81" value="true"/>
+</engineerTo>
+<sourcePk>1033229F-28E2-79D7-2589-993B970B8F28</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>FE4495BC-BF96-5F97-824A-D0BB6F51A7D4</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>BEFBA7E8-817F-DE97-E9FA-467161F0DFA1</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,119 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3A5515C7-EC53-4BBF-D0B3-D511A9646A47" name="IG_O">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 16:24:57 UTC</createdTime>
+<generatorID>6DE8F5DB-63A1-2AA7-5FE1-401C7643A926</generatorID>
+<ownerDesignName>BP</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_IO" id="1FAF0A19-1CFF-B71B-DE8B-8B5267AD81E6">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 16:24:57 UTC</createdTime>
+<generatorID>8A962EC3-9D4B-CFCC-FACA-982D03372F3F</generatorID>
+<ownerDesignName>BP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementMinValue>1</autoIncrementMinValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>SEQ_IO</autoIncrementSequenceName>
+<autoIncrementTriggerName>TRG_IO</autoIncrementTriggerName>
+</Column>
+<Column name="Pocetak" id="7E7F89F7-117A-2A62-0571-6DBA9CF0E1AA">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 16:24:57 UTC</createdTime>
+<generatorID>FA2DCEB5-A5BF-10D5-2F6C-90B96336AD2A</generatorID>
+<ownerDesignName>BP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Kraj" id="ECCCA821-C8E0-6B10-ABDE-B0D5D79F6C6D">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 16:24:57 UTC</createdTime>
+<generatorID>EE01401F-A9A2-D45D-6ACE-BFF8FD1AD096</generatorID>
+<ownerDesignName>BP</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Igraci_ID_Igrac" id="52643986-77CA-89E7-4923-82BA2D8CBBAB">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 16:24:57 UTC</createdTime>
+<generatorID>47859555-75BE-D8C2-E57D-1262558B9041</generatorID>
+<ownerDesignName>BP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9CB129F8-070C-E1A1-0285-0BBCBAB887B1" referredColumn="5CA3D495-4711-233C-C518-BEB59E44422A"/>
+</associations>
+</Column>
+<Column name="Ozljede_ID_O" id="F622B470-5964-F313-18DB-0236969F1289">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 16:24:57 UTC</createdTime>
+<generatorID>9BFD1C31-334B-30A6-D0FB-7F7651EF8684</generatorID>
+<ownerDesignName>BP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D137A7BF-BFEB-9644-CF45-5BC6B10A0E9F" referredColumn="293DD335-DB6D-830B-8E4F-3ABD4BF80D0B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="05CA48B8-6D9D-5533-ADD1-DD22EE339E35" name="IG_O_PK">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 16:24:57 UTC</createdTime>
+<generatorID>D215579E-93D7-2EA3-247F-0261ECF29627</generatorID>
+<ownerDesignName>BP</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1FAF0A19-1CFF-B71B-DE8B-8B5267AD81E6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9E8BE057-479E-91C6-0DD3-50FAC6E9CC68" name="IG_O_Igraci_FK">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 16:24:57 UTC</createdTime>
+<generatorID>DF931F56-4392-DD1D-91C7-2F75C4930948</generatorID>
+<ownerDesignName>BP</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="52643986-77CA-89E7-4923-82BA2D8CBBAB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6A6BDA07-9795-2ED5-8066-4C73AD478016" name="IG_O_Ozljede_FK">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 16:24:57 UTC</createdTime>
+<generatorID>DCA69558-E1E9-E6E0-7148-E40B14F589BC</generatorID>
+<ownerDesignName>BP</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F622B470-5964-F313-18DB-0236969F1289"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

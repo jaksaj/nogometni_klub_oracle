@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DA2D4F62-AF28-D7DC-79C0-8F38012A350D" name="IG_DRZ">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 16:24:57 UTC</createdTime>
+<generatorID>FEE4CBDD-F4A0-371C-0492-14C35233EC22</generatorID>
+<ownerDesignName>BP</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Igraci_ID_Igrac" id="A9A18586-FE0D-E03F-152E-6C454B15A4B9">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 16:24:57 UTC</createdTime>
+<generatorID>BF2DAE08-423C-5D5F-7F9E-861AA27384F5</generatorID>
+<ownerDesignName>BP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3C0840CE-B12C-8AD6-96C0-DBA72E83629C" referredColumn="5CA3D495-4711-233C-C518-BEB59E44422A"/>
+</associations>
+</Column>
+<Column name="Drzave_ID_Drzava" id="86A32D99-FAB5-AE07-8164-A6B152DB257D">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 16:24:57 UTC</createdTime>
+<generatorID>18A0E3F2-8E2C-F8C2-4B78-50D2859B6966</generatorID>
+<ownerDesignName>BP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4E690DA4-1677-F1F9-F4D5-B21A40CD08F2" referredColumn="B4347D5C-BE31-4200-4ECA-C0A70A956A8D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A2C0AF12-6D46-8706-AD39-F86D52563251" name="IG_DRZ_PK">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 16:28:03 UTC</createdTime>
+<generatorID>7EB2C499-6195-50ED-E948-9A0305FB8CBD</generatorID>
+<ownerDesignName>BP</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="86A32D99-FAB5-AE07-8164-A6B152DB257D"/>
+<colUsage columnID="A9A18586-FE0D-E03F-152E-6C454B15A4B9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C968B445-0D7C-AF5B-40C5-50E30E63B81E" name="IG_DRZ_Igraci_FK">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 16:24:57 UTC</createdTime>
+<generatorID>940891B8-BF85-487C-B83C-048A618D9B9B</generatorID>
+<ownerDesignName>BP</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A9A18586-FE0D-E03F-152E-6C454B15A4B9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A29B8209-B511-41A9-044F-F5EFDF2B5CAB" name="IG_DRZ_Drzave_FK">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 16:24:57 UTC</createdTime>
+<generatorID>2DD04962-FACA-1EA3-5C5F-027B966D0F5F</generatorID>
+<ownerDesignName>BP</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="86A32D99-FAB5-AE07-8164-A6B152DB257D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

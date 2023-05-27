@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EBDFAE25-462C-91AD-38AD-F35622D705A0" name="I D">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 15:58:25 UTC</createdTime>
+<ownerDesignName>BP</ownerDesignName>
+<engineerTo>
+<item key="C1D0C0EC-C78B-60FC-AB5F-199AE7E00C81" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Igraci ID Igrac" id="9ECB5272-4FBB-2722-A6C5-70165E5E37FF">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 16:23:23 UTC</createdTime>
+<generatorID>661EBCEF-704A-5C4B-7D4B-68128990F8FD</generatorID>
+<ownerDesignName>BP</ownerDesignName>
+<engineerTo>
+<item key="C1D0C0EC-C78B-60FC-AB5F-199AE7E00C81" value="true"/>
+</engineerTo>
+<referedAttribute>4FC7BC42-07F0-28B7-9527-55FD6147E236</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="UT D ID Dogadaja" id="EEA00B6B-5C1D-9A94-34AA-4CEA7884DACE">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 16:24:34 UTC</createdTime>
+<generatorID>109DB04B-13C7-F5E5-18F7-1B05CEA582E7</generatorID>
+<ownerDesignName>BP</ownerDesignName>
+<engineerTo>
+<item key="C1D0C0EC-C78B-60FC-AB5F-199AE7E00C81" value="true"/>
+</engineerTo>
+<referedAttribute>892BC4C1-4490-C0B4-CDF1-A2965047A20C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0115D78F-5EEC-C487-A970-2967CAEB0BC0" name="I_D_PK">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 15:58:50 UTC</createdTime>
+<ownerDesignName>BP</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="C1D0C0EC-C78B-60FC-AB5F-199AE7E00C81" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9ECB5272-4FBB-2722-A6C5-70165E5E37FF</attributeRef>
+<attributeRef>EEA00B6B-5C1D-9A94-34AA-4CEA7884DACE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

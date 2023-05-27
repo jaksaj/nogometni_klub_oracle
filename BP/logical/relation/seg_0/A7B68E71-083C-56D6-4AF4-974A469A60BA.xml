@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="T E TRENERI FK" directorySegmentName="seg_0" id="A7B68E71-083C-56D6-4AF4-974A469A60BA">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 16:12:41 UTC</createdTime>
+<ownerDesignName>BP</ownerDesignName>
+<engineerTo>
+<item key="C1D0C0EC-C78B-60FC-AB5F-199AE7E00C81" value="true"/>
+</engineerTo>
+<sourcePk>9A1D7A3F-EC06-2B78-4828-C5FB56FEF8B8</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>12F656D9-473D-08E6-C508-C484442E02E8</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>1614ED2B-76F1-822F-F523-3223800F1083</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

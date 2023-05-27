@@ -1,0 +1,125 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2DAB607E-59C0-9D5A-ED0B-C802FFC51F95" name="SEZONE">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 16:24:57 UTC</createdTime>
+<generatorID>0B468F8E-54FD-0BEF-5A27-2175B1006BBC</generatorID>
+<ownerDesignName>BP</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Sezona" id="D7189519-AE58-F8D5-58B5-826CCCA7D079">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 16:24:57 UTC</createdTime>
+<generatorID>B188953A-58A8-106E-87BD-2630FFCF2362</generatorID>
+<ownerDesignName>BP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementMinValue>1</autoIncrementMinValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>SEQ_SEZONA</autoIncrementSequenceName>
+<autoIncrementTriggerName>TRG_SEZONA</autoIncrementTriggerName>
+</Column>
+<Column name="Pocetak" id="1440495A-2C09-1046-D25F-635858F3F9AE">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 16:24:57 UTC</createdTime>
+<generatorID>39625BCD-0208-E6DA-B140-A70671E3D243</generatorID>
+<ownerDesignName>BP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Kraj" id="6E26641A-6BB1-FA3B-DFD1-5F16FEE9E63E">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 16:24:57 UTC</createdTime>
+<generatorID>20C53F74-8974-54C4-F33B-E08D597A7037</generatorID>
+<ownerDesignName>BP</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NATJECANJA_ID_Natjecanje" id="7420ACAE-D300-8912-5C01-608335352B6C">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 16:24:57 UTC</createdTime>
+<generatorID>25859971-1D74-541C-2283-CCCA475ADE4F</generatorID>
+<ownerDesignName>BP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FD3B2AA4-3A19-D46C-129F-A3655ECE76B4" referredColumn="30BE5FDA-F690-CC92-7C80-A863A3E58ECA"/>
+</associations>
+</Column>
+<Column name="Br_klupa" id="2D36E4CB-0B31-7570-0511-923042FB3508">
+<createdBy>student</createdBy>
+<createdTime>2023-03-22 07:44:20 UTC</createdTime>
+<ownerDesignName>BP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Br_zamjena" id="DB31B7ED-9547-2CE9-1F9D-BFFF5111636C">
+<createdBy>student</createdBy>
+<createdTime>2023-03-22 07:44:20 UTC</createdTime>
+<ownerDesignName>BP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Br_igraca" id="02899637-68B5-2F63-DEC5-207F111D083F">
+<createdBy>student</createdBy>
+<createdTime>2023-03-22 07:44:20 UTC</createdTime>
+<ownerDesignName>BP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="63C73F65-996F-A3AE-2C26-E323B6072FCF" name="SEZONE_PK">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 16:24:57 UTC</createdTime>
+<generatorID>9B285EC3-1FEA-1571-FE54-F9AC970F4EF0</generatorID>
+<ownerDesignName>BP</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D7189519-AE58-F8D5-58B5-826CCCA7D079"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="923D4A78-1063-189D-7656-404932B4A3C8" name="SEZONE_NATJECANJA_FK">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 16:24:57 UTC</createdTime>
+<generatorID>9F87EAC1-9A40-121E-87D9-3385D97E6444</generatorID>
+<ownerDesignName>BP</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7420ACAE-D300-8912-5C01-608335352B6C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="UT D TIPOVI DOGADAJA FK" directorySegmentName="seg_0" id="C29A2B76-C5E4-E359-A5E7-964764EF64FE">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 16:10:56 UTC</createdTime>
+<ownerDesignName>BP</ownerDesignName>
+<engineerTo>
+<item key="C1D0C0EC-C78B-60FC-AB5F-199AE7E00C81" value="true"/>
+</engineerTo>
+<sourcePk>EBCFC6E1-7A83-F3D7-0126-8833D53F600C</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>96C58FA4-AC86-0A47-F4B8-D466C8693F4C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>DB643075-6109-DA32-D134-9B495047E849</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

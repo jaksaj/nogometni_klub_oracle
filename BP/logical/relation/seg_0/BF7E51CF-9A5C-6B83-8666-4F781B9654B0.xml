@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Sponzori Branse FK" directorySegmentName="seg_0" id="BF7E51CF-9A5C-6B83-8666-4F781B9654B0">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 16:04:18 UTC</createdTime>
+<ownerDesignName>BP</ownerDesignName>
+<engineerTo>
+<item key="C1D0C0EC-C78B-60FC-AB5F-199AE7E00C81" value="true"/>
+</engineerTo>
+<sourcePk>63A0EB57-EC36-4AFF-CAD7-671AA820B9D1</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>21BE63F0-3975-B86F-4564-27893FEF9FFC</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>629D6206-469B-2AA3-0101-CA0D774EE054</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="IG P POZICIJE FK" directorySegmentName="seg_0" id="FFE41AC2-D18C-AA86-A1E8-ED5026B0F7D4">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 16:08:46 UTC</createdTime>
+<ownerDesignName>BP</ownerDesignName>
+<engineerTo>
+<item key="C1D0C0EC-C78B-60FC-AB5F-199AE7E00C81" value="true"/>
+</engineerTo>
+<sourcePk>EDE38C43-6672-00B4-4E18-695E2366C269</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>75F6E663-9B29-44BF-163E-D3C4A998AC8E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>FE13F119-AA75-467C-B75D-5A2A629C515E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

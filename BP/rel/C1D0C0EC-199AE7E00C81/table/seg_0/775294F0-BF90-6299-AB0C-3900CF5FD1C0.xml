@@ -1,0 +1,133 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="775294F0-BF90-6299-AB0C-3900CF5FD1C0" name="UT_D">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 16:24:57 UTC</createdTime>
+<generatorID>DB643075-6109-DA32-D134-9B495047E849</generatorID>
+<ownerDesignName>BP</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Dogadaja" id="0BFFEB49-B51A-9228-5CA1-1D0687325D2E">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 16:24:57 UTC</createdTime>
+<generatorID>892BC4C1-4490-C0B4-CDF1-A2965047A20C</generatorID>
+<ownerDesignName>BP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementMinValue>1</autoIncrementMinValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>SEQ_DOGADAJ</autoIncrementSequenceName>
+<autoIncrementTriggerName>TRG_DOGADAJ</autoIncrementTriggerName>
+</Column>
+<Column name="Vrijeme" id="C2517720-FED2-74C8-DC28-0EC067D0074D">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 16:24:57 UTC</createdTime>
+<generatorID>EFEE78FA-7134-48A7-866F-45C04394D79E</generatorID>
+<ownerDesignName>BP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UTAKMICE_ID_Utakmice" id="A241CFD3-C77B-F30D-2EB7-34A6BF12D9B4">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 16:24:57 UTC</createdTime>
+<generatorID>86232914-DE05-B392-B699-BE54DF733BC5</generatorID>
+<ownerDesignName>BP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7B27ED96-EA3A-1218-F0BF-7B43B905C993" referredColumn="CCA57108-3588-976D-97A4-977941B493A8"/>
+</associations>
+</Column>
+<Column name="TIPOVI_DOGADAJA_ID_TD" id="EDD08B42-8240-72A7-3DE0-D54B7D39BD17">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 16:24:57 UTC</createdTime>
+<generatorID>7853E910-2CD3-FC05-56B9-5CD1BDBAD97A</generatorID>
+<ownerDesignName>BP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B8515CBD-5535-9A83-EB14-D6EBC43DCAA6" referredColumn="162012FC-A8D1-BB83-9849-69930D4BD7C5"/>
+</associations>
+</Column>
+<Column name="EKIPE_ID_Ekipa" id="BDCE3015-4D43-9177-8371-06700DBD23AE">
+<createdBy>JJ</createdBy>
+<createdTime>2023-04-02 13:48:50 UTC</createdTime>
+<ownerDesignName>BP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3580486B-8514-57BC-BAA0-213F767C12A2" referredColumn="9ABDBAB2-94ED-FEEF-00F8-B0E8D90AE23B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0353313A-F7D6-4C41-F2F7-20AF41BE72B5" name="UT_D_PK">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 16:24:57 UTC</createdTime>
+<generatorID>9CC7F2BC-B045-BCC8-B11F-CA92B5E07110</generatorID>
+<ownerDesignName>BP</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0BFFEB49-B51A-9228-5CA1-1D0687325D2E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9CB5BD94-5E9A-D50B-0345-D6468B92131D" name="UT_D_UTAKMICE_FK">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 16:24:57 UTC</createdTime>
+<generatorID>79A2CC85-3944-D3B9-524C-78A1C50BA5AA</generatorID>
+<ownerDesignName>BP</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A241CFD3-C77B-F30D-2EB7-34A6BF12D9B4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F1C0831F-092C-706F-731B-F2F66503383E" name="UT_D_TIPOVI_DOGADAJA_FK">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 16:24:57 UTC</createdTime>
+<generatorID>C29A2B76-C5E4-E359-A5E7-964764EF64FE</generatorID>
+<ownerDesignName>BP</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EDD08B42-8240-72A7-3DE0-D54B7D39BD17"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="67A0A225-8AA3-F7B7-37D3-78C6EF2D88BD" name="UT_D_EKIPE_FK">
+<createdBy>JJ</createdBy>
+<createdTime>2023-04-02 13:48:50 UTC</createdTime>
+<generatorID>6C1F627D-0A72-26B7-D25E-DADA212C10BC</generatorID>
+<ownerDesignName>BP</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BDCE3015-4D43-9177-8371-06700DBD23AE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

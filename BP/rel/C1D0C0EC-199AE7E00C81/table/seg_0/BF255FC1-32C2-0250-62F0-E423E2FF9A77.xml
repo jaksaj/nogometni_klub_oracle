@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BF255FC1-32C2-0250-62F0-E423E2FF9A77" name="Vlasnici_kluba">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 16:24:57 UTC</createdTime>
+<generatorID>CB912F56-6809-F4AC-4395-29DB543F3C6E</generatorID>
+<ownerDesignName>BP</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Udio" id="7DBD0D23-42CD-E90E-8312-F34AF8F8AA3E">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 16:24:57 UTC</createdTime>
+<generatorID>76813BE1-395B-26A8-6C19-58D62EC99915</generatorID>
+<ownerDesignName>BP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Klubovi_ID_Klub" id="103D99EB-99EE-D296-D81C-86D94620A6B7">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 16:24:57 UTC</createdTime>
+<generatorID>26C4BD72-C78D-542E-2BBF-86DD994CEF34</generatorID>
+<ownerDesignName>BP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7ADF6276-EBD0-B646-26BA-3BDC985C5419" referredColumn="2E53C48A-8831-2963-9030-291A69B0FFF9"/>
+</associations>
+</Column>
+<Column name="Vlasnici_ID_Vlasnik" id="D31A74E9-3A99-E843-06A8-7D34B6C8F07B">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 16:24:57 UTC</createdTime>
+<generatorID>DB1A3E56-197B-C7F5-D89B-E6E07D8D938D</generatorID>
+<ownerDesignName>BP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F0140CB1-7F3B-D8E3-B2D6-6C547243E6EC" referredColumn="52895D29-AA63-0328-0CDD-9F7418C9C8B1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EC6196AA-D90F-6E6A-97B5-273C91C2A679" name="Vlasnici_kluba_PK">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 16:32:40 UTC</createdTime>
+<generatorID>1DB8FECA-923D-F5F4-CEBC-159576E1CF98</generatorID>
+<ownerDesignName>BP</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D31A74E9-3A99-E843-06A8-7D34B6C8F07B"/>
+<colUsage columnID="103D99EB-99EE-D296-D81C-86D94620A6B7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DDD182A9-2C3A-7651-7563-863B729F1FA9" name="Vlasnici_kluba_Klubovi_FK">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 16:24:57 UTC</createdTime>
+<generatorID>7F1D5A8C-4FF5-946F-DBF8-33B1100FDE41</generatorID>
+<ownerDesignName>BP</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="103D99EB-99EE-D296-D81C-86D94620A6B7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3FCCB400-70A5-B521-FBD3-D4C4EB2F5E5E" name="Vlasnici_kluba_Vlasnici_FK">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 16:24:57 UTC</createdTime>
+<generatorID>A17D7028-071D-DCBC-100D-2346F12B20B0</generatorID>
+<ownerDesignName>BP</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D31A74E9-3A99-E843-06A8-7D34B6C8F07B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

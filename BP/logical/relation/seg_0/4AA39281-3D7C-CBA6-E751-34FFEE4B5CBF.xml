@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="EKIPE UZRASTI FK" directorySegmentName="seg_0" id="4AA39281-3D7C-CBA6-E751-34FFEE4B5CBF">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 16:13:48 UTC</createdTime>
+<ownerDesignName>BP</ownerDesignName>
+<engineerTo>
+<item key="C1D0C0EC-C78B-60FC-AB5F-199AE7E00C81" value="true"/>
+</engineerTo>
+<sourcePk>C4E839AF-0DFE-938B-D2F6-10236EC950A0</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B1E72C6A-5148-D5CE-267C-BDFE5C3B2B55</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>2A56981D-A579-17E0-6C67-D0BE48E4A843</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

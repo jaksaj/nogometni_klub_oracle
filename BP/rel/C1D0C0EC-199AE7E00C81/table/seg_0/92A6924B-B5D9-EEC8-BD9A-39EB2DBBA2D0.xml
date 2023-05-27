@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="92A6924B-B5D9-EEC8-BD9A-39EB2DBBA2D0" name="NATJECANJA">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 16:24:57 UTC</createdTime>
+<generatorID>FE1D32B6-9287-B272-6A8C-45DF635A8830</generatorID>
+<ownerDesignName>BP</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Natjecanje" id="30BE5FDA-F690-CC92-7C80-A863A3E58ECA">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 16:24:57 UTC</createdTime>
+<generatorID>C886C1C1-6BDE-8F5B-E629-2E81CE1F8D0D</generatorID>
+<ownerDesignName>BP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementMinValue>1</autoIncrementMinValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>SEQ_NATJECANJA</autoIncrementSequenceName>
+<autoIncrementTriggerName>TRG_NATJECANJA</autoIncrementTriggerName>
+</Column>
+<Column name="Naziv" id="9D0CD7CC-95B2-C838-D21B-113E2E1FD2CC">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 16:24:57 UTC</createdTime>
+<generatorID>8E612F02-D34A-AEB0-67AE-CDBE90EC900A</generatorID>
+<ownerDesignName>BP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UZRASTI_ID_Uzrast" id="9CFA2D07-0C25-EAD1-AFB2-4680B95C71AB">
+<createdBy>student</createdBy>
+<createdTime>2023-03-22 07:45:36 UTC</createdTime>
+<ownerDesignName>BP</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="14F63185-05BD-56B0-58FD-624C6F12718F" referredColumn="3E60F3C0-6F72-6ACA-72DC-882FD404D02F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C9FE6B11-1F80-4B09-D061-8271BBC25940" name="NATJECANJA_PK">
+<createdBy>JJ</createdBy>
+<createdTime>2023-03-13 16:24:57 UTC</createdTime>
+<generatorID>9C4FB6EE-6C76-A847-5B3C-F942E9A647E7</generatorID>
+<ownerDesignName>BP</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="30BE5FDA-F690-CC92-7C80-A863A3E58ECA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="77689647-032C-FA76-0566-BC583285E9DF" name="NATJECANJA_UZRASTI_FK">
+<createdBy>student</createdBy>
+<createdTime>2023-03-22 07:45:36 UTC</createdTime>
+<generatorID>C4E839AF-0DFE-938B-D2F6-10236EC950A0</generatorID>
+<ownerDesignName>BP</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9CFA2D07-0C25-EAD1-AFB2-4680B95C71AB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
